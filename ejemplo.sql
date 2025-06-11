@@ -1,7 +1,7 @@
 CREATE SCHEMA IF NOT EXISTS UNS;
 USE UNS;
 
-DROP TABLE IF EXISTS cliente;
+
 CREATE TABLE cliente 
  (id                         VARCHAR(3)  NOT NULL,
   nombre                     VARCHAR(20) NOT NULL,
