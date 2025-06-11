@@ -1,5 +1,4 @@
 CREATE SCHEMA IF NOT EXISTS UNS;
-USE UNS;
 DROP TABLE IF EXISTS cliente;
 CREATE TABLE cliente 
  (id                         VARCHAR(3)  NOT NULL,
@@ -8,7 +7,7 @@ CREATE TABLE cliente
   direccion                  VARCHAR(20),
   ciudad                     VARCHAR(20),
   provincia                  VARCHAR(15),
-  país                       VARCHAR(20),
+  pais                       VARCHAR(20),
   codigo_postal              VARCHAR(15),
   historial_crediticio       VARCHAR(9),
   ventas_rep_id              VARCHAR(3),
